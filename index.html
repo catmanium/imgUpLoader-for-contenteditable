@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <meta charset="UTF-8"> 
+        <script type="text/javascript" src="imgUpLoader.js"></script>
+        <style>
+            img{
+                max-width: 200px;
+                height: auto;
+            }
+            #a{
+                background: black;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <form id="myForm" name="myForm" method="post" enctype="multipart/form-data" action="imgUpLoader.php">
+            <input type="file" id="input_1" class="input_class" name="input_1" accept="image/*">       
+        </form>
+        <div id="a" contenteditable="true">
+            <p>サンプル</p>
+        </div>
+        <button  onclick="selectImg()">写真</button>
+        <button onclick="sousin()">aaa</button>
+    </body>
+</html>
